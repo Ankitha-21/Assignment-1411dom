@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="id1">
+      <h1 id="p1"></h1>
+      <img id="img" />
+      <p id="id_no"></p>
+      <p id="md"></p>
+      <p id="bg"></p>
+    </div>
+    <script>
+      let div1 = document.getElementById("id1");
+      div1.style.border = "3px solid black";
+      div1.style.width="25vw";
+      div1.style.height="78vh";
+      div1.style.marginLeft="35%";
+      div1.style.marginTop="5%";
+      div1.style.backgroundColor="aqua"
+      div1.style.borderRadius="11%"
+      let name = document.getElementById("p1");
+      name.innerHTML = "Radhika";
+      name.style.marginLeft="33%"
+      let image = document.getElementById("img");
+      image.setAttribute("src", "./assests/images/cooking.jpg");
+      image.style.paddingLeft="12%";
+      image.style.height="45%";
+      image.style.width="75%"
+      let id=document.getElementById("id_no");
+      id.innerHTML="2131F4";
+      id.style.fontWeight="800";
+      id.style.fontSize="30px"
+      id.style.marginLeft="35%";
+      let mobile=document.getElementById("md");
+      md.innerHTML="999-556-7832";
+      md.style.fontWeight="600";
+      md.style.fontSize="20px"
+      md.style.marginLeft="33%";
+      let role=document.getElementById("bg");
+      role.innerHTML="Chef";
+      role.style.fontWeight="800";
+      role.style.fontSize="30px"
+      role.style.marginLeft="38%";
+    </script>
+  </body>
+</html>
